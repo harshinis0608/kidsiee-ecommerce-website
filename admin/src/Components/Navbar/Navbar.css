@@ -1,0 +1,45 @@
+.navlogo1{
+    width: 100px; 
+  height: 100px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.navprofile1{
+    width: 75px;
+  height: 50px;
+  border-radius: 100%;
+  
+}
+.navbar{
+  display: flex;
+  align-items: center;
+ padding: 15px 60px;
+ box-shadow: 0 1px 3px -2px #000;
+ margin-bottom: 1px;
+ background: white;
+ justify-content: space-between;
+}
+.navbar p{
+  font-family: 'Times New Roman', Times, serif;
+ margin: 0;
+}
+.nav-title{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+@media(max-width:800px){
+  .navbar{
+    padding: 15px 30px;
+  }
+  .navlogo1{
+    width: 50px;
+    height: 50px;
+  }
+  .navprofile1{
+    width: 50px;
+  }
+  .nav-title{
+    font-size: 15px;
+  }
+}
