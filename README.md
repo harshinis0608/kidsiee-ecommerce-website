@@ -33,27 +33,23 @@
 
 ---
 
-## Project Structure
-E-commerce1/
-├── frontend/ → Customer-facing UI (React + Vite)
-├── admin/ → Admin dashboard for product management
-├── backend/ → REST APIs, MongoDB, authentication
-
----
-
 ## How to Run the Project Locally
 
 ### Backend
+
+```bash
 cd backend
 npm install
 node index.js
-
-### Frontend
+Frontend
+bash
+Copy code
 cd frontend
 npm install
 npm run dev
-
-### Admin Panel
+Admin Panel
+bash
+Copy code
 cd admin
 npm install
 npm run dev
