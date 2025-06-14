@@ -41,18 +41,36 @@
 cd backend
 npm install
 node index.js
-Frontend
-bash
-Copy code
+```
+### Frontend
+```bash
 cd frontend
 npm install
 npm run dev
-Admin Panel
-bash
-Copy code
+```
+### Admin Panel
+```bash
 cd admin
 npm install
 npm run dev
+```
+
+---
+
+
+## Screenshots
+
+### Homepage
+![Homepage](kidsiee-homepage.png)
+
+### Cart Page
+![Cart](kidsiee-cart.png)
+
+### Login Page
+![Login](kidsiee-login.png)
+
+### Admin Panel
+![Admin](kidsiee-admin.png)
 
 
 
